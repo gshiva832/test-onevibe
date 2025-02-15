@@ -1,4 +1,4 @@
-const serviceModel = require('../serviceCollection')
+const serviceModel = require('../models/serviceCollection')
 
 const serviceController = async (req,res) =>{
     try{

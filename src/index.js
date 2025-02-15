@@ -4,10 +4,10 @@ const bodyParser = require('body-parser');
 const hbs = require('hbs');
 const path = require('path');
 const collection = require('./mongodb');
-const userRouter = require('../models/routes/user.route')
-const celbRouter = require('../models/routes/celebrity.router')
-const industryRouter = require('../models/routes/industry.router');
-const serviceRouter = require('../models/routes/service.router');
+const userRouter = require('./routes/user.route')
+const celbRouter = require('./routes/celebrity.router')
+const industryRouter = require('./routes/industry.router');
+const serviceRouter = require('./routes/service.router');
 
 const app = express();
 const tempelatePath = path.join(__dirname, './public/tempelates');

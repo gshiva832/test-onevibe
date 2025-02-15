@@ -1,4 +1,4 @@
-const celebrityModel  = require('../celebrityCollection');
+const celebrityModel  = require('../models/celebrityCollection');
 
 const celbController = async (req,res) =>{
     try {

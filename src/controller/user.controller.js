@@ -1,4 +1,4 @@
-const User = require('../userCollection')
+const User = require('../models/userCollection')
 
 const userCreate = async (req,res) => {
     try{

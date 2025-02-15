@@ -1,4 +1,4 @@
-const industryModel = require('../industriesCollection')
+const industryModel = require('../models/industriesCollection')
 
 const industryController  = async (req,res) =>{
     try{

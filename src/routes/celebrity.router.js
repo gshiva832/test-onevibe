@@ -1,4 +1,4 @@
-const celbController = require('../controller/celebrity.controller')
+const celbController = require('../../src/controller/celebrity.controller')
 const celbRouter = require('express').Router()
 
 

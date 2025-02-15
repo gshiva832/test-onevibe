@@ -1,5 +1,5 @@
 const serviceRouter = require('express').Router();
-const serviceController = require('../controller/service.controller')
+const serviceController = require('../../src/controller/service.controller')
 
 
 serviceRouter.post('/', serviceController.serviceController)
